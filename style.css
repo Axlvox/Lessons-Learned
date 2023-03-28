@@ -1,6 +1,10 @@
-<style>
+#cabecalho {
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
 
 body {
     background-color: rgb(253, 251, 251);
 }
-</style>
