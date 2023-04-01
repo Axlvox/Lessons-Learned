@@ -7,4 +7,47 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 15px;
+}
+
+
+.faixaSuperior {
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    display: block;
+    z-index: 1;
+}
+
+#licoes {
+    position: fixed;
+    color: white;
+    display: inline-block;
+    margin-left: 30%;
+    z-index: 2; 
+}
+
+#minha_foto {
+    position: absolute;
+    top: 140px;
+    height: 170px;
+    width: 200px;
+    z-index: 3;
+}
+
+
+#faixas{
+    position: absolute;
+    display: inline;
+    top: 370px;
+    left: 0px;
+}
+
+#discografia{
+    position: absolute;
+    display: inline;
+    top: 370px;
+    left: 200px;
 }
