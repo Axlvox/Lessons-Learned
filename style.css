@@ -44,7 +44,7 @@ body {
     top: 320px;
     left: 10px;
 }
-#lado-esquerdo{
+.lado-esquerdo{
     position: absolute;
     display: block;
     top: 600px;
@@ -56,7 +56,7 @@ body {
     margin: auto;
     border: black;
 }
-#lado-direito{
+.lado-direito{
     position: absolute;
     display: block;
     top: 600px;
