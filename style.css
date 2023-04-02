@@ -41,5 +41,26 @@ body {
     position: absolute;
     display: inline;
     top: 370px;
-    left: 100px;
+    left: 200px;
+}
+
+#rodape{
+    position: absolute;
+    display: inline;
+    top: 320px;
+    left: 10px;
+}
+
+#artigo{
+    position: absolute;
+    display: block;
+    top: 570px;
+    left: 700px;
+}
+
+#descricao{
+    position: absolute;
+    display: block;
+    top: 600px;
+    left: 10px;
 }
