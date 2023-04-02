@@ -5,8 +5,16 @@
     height: 120px;
     width: 100%;
     display: block;
-    z-index: 1;
     text-align: center;
+}
+#barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    display: block;
+    z-index: 1;
 }
 body {
     background-color: rgb(253, 251, 251);
@@ -49,22 +57,22 @@ body {
     display: block;
     top: 600px;
     left: 10px;
-    font-size: 10;
+    font-size: 20px;
     color: gray;
-    padding: left;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    border: black;
+    margin: 10px;
+    padding: 10px;
+    border-style: dashed;
 }
 .lado-direito{
     position: absolute;
     display: block;
     top: 600px;
     left: 600px;
-    font-size: 10;
+    font-size: 15px;
     color: gray;
-    padding: right;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    border: black;
+    margin: 10px;
+    padding: 10px;
+    border-style: dashed;
 }
