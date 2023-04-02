@@ -49,9 +49,11 @@ body {
     display: block;
     top: 600px;
     left: 10px;
+    font-size: 10;
+    color: gray;
+    padding: left;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    padding: initial;
     border: black;
 }
 #lado-direito{
@@ -59,8 +61,10 @@ body {
     display: block;
     top: 600px;
     left: 600px;
+    font-size: 10;
+    color: gray;
+    padding: right;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    padding: initial;
     border: black;
 }
